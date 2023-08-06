@@ -1,0 +1,26 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Scripts","order":1,"path":"folders/Scripts.yy",},
+    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":4,"path":"folders/Rooms.yy",},
+    {"name":"Extensions","order":5,"path":"folders/Extensions.yy",},
+    {"name":"server","order":1,"path":"folders/Objects/server.yy",},
+    {"name":"helpers","order":7,"path":"folders/Scripts/helpers.yy",},
+    {"name":"client","order":4,"path":"folders/Objects/client.yy",},
+    {"name":"sprites","order":3,"path":"folders/Objects/client/sprites.yy",},
+    {"name":"sprites","order":3,"path":"folders/Objects/server/sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"draw_reset","order":3,"path":"scripts/draw_reset/draw_reset.yy",},
+    {"name":"obj_client_remote_player","order":1,"path":"objects/obj_client_remote_player/obj_client_remote_player.yy",},
+    {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"obj_bullet","order":2,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"scr_go_back_menu","order":4,"path":"scripts/scr_go_back_menu/scr_go_back_menu.yy",},
+    {"name":"obj_server_player","order":2,"path":"objects/obj_server_player/obj_server_player.yy",},
+    {"name":"MultiClientGetClientID","order":1,"path":"scripts/MultiClientGetClientID/MultiClientGetClientID.yy",},
+    {"name":"scr_smooth_sync_remote_player_position","order":1,"path":"scripts/scr_smooth_sync_remote_player_position/scr_smooth_sync_remote_player_position.yy",},
+    {"name":"move_until_point_smooth","order":2,"path":"scripts/move_until_point_smooth/move_until_point_smooth.yy",},
+    {"name":"network_send_to_clients_except","order":6,"path":"scripts/network_send_to_clients_except/network_send_to_clients_except.yy",},
+    {"name":"obj_server","order":1,"path":"objects/obj_server/obj_server.yy",},
+  ],
+}
