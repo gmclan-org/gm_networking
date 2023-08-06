@@ -39,7 +39,7 @@ if (_game_number > 0) {
 			global.auto_select_menu = 1; // SERVER
 		}
 		if (option_auto_move_window) {
-			window_set_position(20, 200);
+			window_set_position(20, window_get_y());
 		}
 	} else {
 		// it is second or later window created
