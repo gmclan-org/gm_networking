@@ -4,10 +4,12 @@
 	var _sock = async_load[? "id"];
 	
 	if (_sock == socket) {
-		if (_type == network_type_disconnect) {
+		// network_type_disconnect seems to never hapen if server is closed
+		/*if (_type == network_type_disconnect) {
 				// server eneded game
 				instance_destroy();
-		} if (_type == network_type_data) {
+		}*/
+		if (_type == network_type_data) {
 			var _buff = async_load[? "buffer"]; // this is data we got
 		
 			buffer_seek(_buff, buffer_seek_start, 0); // rewind buffer to be sure we're reading from start
